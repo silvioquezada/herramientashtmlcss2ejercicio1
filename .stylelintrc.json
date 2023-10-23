@@ -1,0 +1,15 @@
+{
+    "rules": {
+        "extends": "stylelint-config-standard",
+        "color-named": "never",
+        "function-disallowed-list": ["rgb", "hwb", "lch"],
+        "custom-property-pattern": [
+            "^([a-z][a-z0-9]*)(_[a-z0-9]+)*$",
+            {
+              "message": "Expected custom property name to be kebab-case"
+            }
+        ],
+        "class-no-empty": null,
+        "selector-max-id": 0
+    }
+}

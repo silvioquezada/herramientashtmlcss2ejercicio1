@@ -1,0 +1,163 @@
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+}
+
+#a {
+
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+  border: 1px solid #e5e5e5;
+}
+
+.Blue_A {
+    background-color: #99c520;
+}
+
+.blue {
+    background-color: #99c520;
+}
+
+.aling-right {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  flex: 100px;
+  height: 100px;
+
+  background-color: #1623d8;
+  border: 1px solid #e5e5e5;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: #089136;
+  border: 1px solid #e5e5e5;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #3c39ee;
+  border: 1px solid #e5e5e5;
+}
+
+.photo {
+  margin: 1%;
+  padding: 1%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.circle {
+  clip-path: circle(40% at center);
+}
+
+.text-big {
+  margin: 1px;
+  padding: 1px;
+
+ 
+
+  font-size: 38px;
+}
+
+.text-medium {
+  margin: 1px;
+  padding: 1px;
+
+  font-size: 24px;
+}
+
+.content {
+  margin: 1%;
+  padding: 1%;
+
+  display: flex;
+  flex-direction: column;
+  flex: 200px;
+  height: auto;
+
+  background-color: #3c39ee;
+  border: 1px solid #e5e5e5;
+}
+
+.sidebar {
+  margin: 1%;
+  padding: 1%;
+
+  display: flex;
+  flex-direction: column;
+  flex: 50px;
+  height: auto;
+
+  background-color: #3c39ee;
+  border: 1px solid #e5e5e5;  
+}
+
+.icon {
+
+}
+
+.button {
+  padding: 10px;
+  margin: 1%;
+
+  display: block;
+  width: 200px;
+
+  font-size: 16px;
+  color: #000000;
+
+  background-color: #d8d5d5;
+  border: 2px solid #d8d5d5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-blue {
+  color: #fff;
+
+  background-color: #3498db;
+  border: 2px solid #3498db;
+}
+
+.color-green {
+  color: #fff;
+
+  background-color: #54ba4e;
+  border: 2px solid #54ba4e;
+}
