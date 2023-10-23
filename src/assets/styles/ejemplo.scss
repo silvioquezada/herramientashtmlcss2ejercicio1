@@ -24,13 +24,20 @@ body {
   border: 1px solid #e5e5e5;
 }
 
-.Blue_A {
-    background-color: #99c520;
+a { color: #00; }
+
+a, b {
+  flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
+.Blue_A {
+    background-color: #99c520 !important;
+}
 .blue {
     background-color: #99c520;
 }
+
 
 .aling-right {
   margin: 0;

@@ -1,15 +1,28 @@
 {
-    "rules": {
-        "extends": "stylelint-config-standard",
+    "rules": {        
+        "declaration-block-no-duplicate-properties": true,
+        "no-duplicate-at-import-rules": true,
+        "no-duplicate-selectors" : true,
+        
+        "class-no-empty": null,
+
         "color-named": "never",
         "function-disallowed-list": ["rgb", "hwb", "lch"],
+        "color-no-invalid-hex": true,
+
+        "declaration-no-important" : true,
+        "rule-empty-line-before": "always",
+
+        "function-calc-no-unspaced-operator" : true,
+        "media-query-no-invalid" : true,
+
         "custom-property-pattern": [
             "^([a-z][a-z0-9]*)(_[a-z0-9]+)*$",
             {
               "message": "Expected custom property name to be kebab-case"
             }
         ],
-        "class-no-empty": null,
+        
         "selector-max-id": 0
     }
 }
