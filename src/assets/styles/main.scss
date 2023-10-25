@@ -1,10 +1,15 @@
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
 body {
+  
   margin: 0;
   padding: 0;
 
-  font-size: 14px;
+  background-color:  #dae3e7;
+
+  font-family: 'Lato', arial, sans-serif;
+  font-size: 16px;
+  color: #434343;
 }
 
 .header {
@@ -16,13 +21,13 @@ body {
   align-items: center;
   flex-wrap: wrap;
 
-  background-color: #99c520;
+  background-color: #f5f5f5;
   border: 1px solid #e5e5e5;
 }
 
 .aling-right {
   margin: 0;
-  padding: 0;
+  padding: 1%;
 
   display: flex;
   flex-direction: row;
@@ -31,8 +36,7 @@ body {
   flex: 100px;
   height: 100px;
 
-  background-color: #1623d8;
-  border: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
 }
 
 .container {
@@ -42,20 +46,52 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 0;
 
-  background-color: #089136;
+  // background-color: #089136;
+  // border: 1px solid #e5e5e5;
+}
+
+.card {
+  //margin: 10px;
+  //padding: 30px;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  background-color: #fff;
   border: 1px solid #e5e5e5;
+}
+
+span {
+  margin-top: 2%;
+  margin-bottom:  2%;
+  padding: 0;
 }
 
 .footer {
   margin: 0;
-  padding: 0;
+  padding: 1%;
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  background-color: #3c39ee;
-  border: 1px solid #e5e5e5;
+  color: #fff;
+
+  background-color: #32383e;
 }
 
 .photo {
@@ -66,8 +102,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+}
+
+.image {
+  color: #778492;
+  font-size: 80px;
+  text-align: center;
 }
 
 .circle {
@@ -79,8 +121,10 @@ body {
   padding: 1px;
 
  
-
+  font-family: 'Montserrat', sans-serif;
   font-size: 38px;
+  font-weight: bold;
+  color: #49515a;
 }
 
 .text-medium {
@@ -88,36 +132,62 @@ body {
   padding: 1px;
 
   font-size: 24px;
+  color: #778492;
+}
+
+.title {
+  margin: 1px;
+  padding: 1px;
+
+  font-size: 24px;
+  color: #434343;
 }
 
 .content {
-  margin: 1%;
-  padding: 1%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   display: flex;
   flex-direction: column;
-  flex: 200px;
+  flex: 400px;
   height: auto;
 
-  background-color: #3c39ee;
+  //background-color: #dae3e7;
+  background-color: #778492;
   border: 1px solid #e5e5e5;
 }
 
 .sidebar {
-  margin: 1%;
-  padding: 1%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   display: flex;
   flex-direction: column;
+  
   flex: 50px;
   height: auto;
 
-  background-color: #3c39ee;
+  //background-color: #dae3e7;
+  background-color: #778492;
   border: 1px solid #e5e5e5;  
 }
 
-.icon {
-
+a {
+  color: #778492;
+  font-size: 32px;
+  text-align: center;
 }
 
 .button {
